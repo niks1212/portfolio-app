@@ -9,7 +9,7 @@ phases:
       - npm install
   build:
     commands:
-      - echo Build started on `date`
+      - echo Building React app...
       - npm run build
 artifacts:
   files:
